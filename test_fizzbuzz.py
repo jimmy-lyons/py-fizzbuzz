@@ -10,4 +10,7 @@ class TestFizzbuzz(unittest.TestCase):
     self.assertEqual(generate(2), "1, 2")
 
   def test_lists_values_up_to_three(self): 
-    self.assertEqual(generate(2), "1, 2, fizz")
+    self.assertEqual(generate(3), "1, 2, fizz")
+
+  # def test_lists_values_up_to_four(self): 
+  #   self.assertEqual(generate(2), "1, 2, fizz, 4")
