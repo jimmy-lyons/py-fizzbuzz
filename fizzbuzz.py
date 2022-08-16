@@ -5,6 +5,8 @@ def generate(upto):
   for i in num_list:
     if i % 3 == 0:
       output_list.append("fizz")
+    elif i % 5 == 0:
+      output_list.append("buzz")
     else:
       output_list.append(str(i))
 

@@ -14,3 +14,6 @@ class TestFizzbuzz(unittest.TestCase):
 
   def test_lists_values_up_to_four(self): 
     self.assertEqual(generate(4), "1, 2, fizz, 4")
+
+  def test_lists_values_up_to_five(self): 
+    self.assertEqual(generate(5), "1, 2, fizz, 4, buzz")
