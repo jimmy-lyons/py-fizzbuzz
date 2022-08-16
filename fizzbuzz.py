@@ -3,7 +3,9 @@ def generate(upto):
   output_list = []
 
   for i in num_list:
-    if i % 3 == 0:
+    if i % 15 == 0:
+      output_list.append("fizzbuzz")
+    elif i % 3 == 0:
       output_list.append("fizz")
     elif i % 5 == 0:
       output_list.append("buzz")
