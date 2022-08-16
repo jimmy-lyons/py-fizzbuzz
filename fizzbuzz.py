@@ -1,2 +1,7 @@
 def generate(upto):
-  return "1" if upto == 1 else "1, 2"
+  if upto == 1:
+    return "1"
+  elif upto == 2:
+    return "1, 2"
+  else:
+    return "1, 2, fizz"
